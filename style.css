@@ -64,6 +64,7 @@ h1 {
 #larry {
     line-height: 120px;
     font-size: 5em;
+    width: 100%;
 }
 
 .bubble {
@@ -223,12 +224,7 @@ h1 {
     border-radius: 50%;
     animation: fadeIn 1s forwards;
     animation-delay: 1.5s;
-    transition: all 1s;
     z-index: 1;
-}
-
-.home-button:hover {
-    background-color: rgb(0, 162, 255);
 }
 
 .home-button img {
