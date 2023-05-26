@@ -83,7 +83,7 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     animation-name: hoverIn;
     animation-delay: 0.2s;
     animation-duration: 1s;
