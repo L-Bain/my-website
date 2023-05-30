@@ -235,15 +235,16 @@ h1 {
     padding: 0px 20px 20px 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: flex-start;
+    justify-content: center;
     gap: 40px 50px;
 }
 
+.tunes iframe,
+.tunes div {
+    height: 455px;
+}
+
 .tune {
-    width: fit-content;
-    height: fit-content;
     background-color: black;
     text-align: center;
 }
@@ -314,6 +315,33 @@ h1 {
     align-items: center;
     justify-content: center;
     transition: all 0.5s;
+}
+
+#kanye {
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 400px;
+    outline: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#kanye-quote {
+    text-align: center;
+    font-style: italic;
+    width: 300px;
+    min-height: 160px;
+}
+
+#kanye button {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
 }
 
 @media only screen and (max-width: 768px) {

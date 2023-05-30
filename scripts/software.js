@@ -1,16 +1,8 @@
-items = document.getElementsByClassName("item");
-let r = 255;
-let g = 255;
-let b = 255;
+import { generateColor } from "./randColor.js";
+
+let items = document.getElementsByClassName("item");
 
 let screen_width = document.body.clientWidth;
-
-function generateColor() {
-    r = Math.max(50, Math.floor(Math.random() * 255));
-    g = Math.max(50, Math.floor(Math.random() * 255));
-    b = Math.max(50, Math.floor(Math.random() * 255));
-    return("rgb(" + r + "," + g + "," + b + ")");
-}
 
 let idx = 0;
 function responsiveColor() {
