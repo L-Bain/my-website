@@ -5,10 +5,7 @@
 body {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
     padding-top: 30px;
-    padding-bottom: 30px;
-    outline: 2px solid black;
     background-color: white;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
     width: 40%;
@@ -130,11 +127,13 @@ section {
     flex-wrap: wrap;
     width: 480px;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .skill {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .skill h5 {
