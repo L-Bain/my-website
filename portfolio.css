@@ -99,6 +99,10 @@ section {
     margin-left: 250px;
 }
 
+.info img {
+    width: 25px;
+}
+
 .dot,
 .dot-grey {
     height: 10px;
@@ -138,4 +142,11 @@ section {
 
 .skill h5 {
     width: 170px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding-left: 20px;
+        padding-right: 5px;
+    }
 }
