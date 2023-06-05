@@ -343,6 +343,10 @@ a {
         line-height: normal;
     }
 
+    .bubble {
+        margin-bottom: 30px;
+    }
+
     .bubble:nth-of-type(1) {
         background-color: rgb(241, 128, 217);
     }

@@ -54,16 +54,16 @@ p, a {
     color:gray;
 }
 
-#info-1 {
+.info-1 {
     display: flex;
     margin-bottom: 50px;
 }
 
-#info-1 h2 {
+.info-1 h2 {
     width: 250px;
 }
 
-#info-1 p {
+.info-1 p {
     width: 450px;
     line-height: 22px;
 }
@@ -75,31 +75,35 @@ section {
     margin-bottom: 30px;
 }
 
-.info b {    
+.info-2 {
+    margin-bottom: 50px;
+}
+
+.info-2 b {    
     width: 250px;
 }
 
-.info h3 {
+.info-2 h3 {
     width: 420px;
     align-items:flex-end;
     margin-bottom: 0;
 }
 
-.info p {
+.info-2 p {
     width: 420px;
     line-height: 22px;
     margin-left: 250px;
     margin-top: 15px;
 }
 
-.info h4 {
+.info-2 h4 {
     color: rgb(61, 61, 61);
     font-weight: normal;
     margin-top: 15px;
     margin-left: 250px;
 }
 
-.info img {
+.info-2 img {
     width: 25px;
 }
 
@@ -117,21 +121,11 @@ section {
     background-color: lightgray;
 }
 
-#info-3 {
-    display: flex;
-    margin-top: 50px;
-}
-
-#info-3 h2 {
-    width: 250px;
-}
-
 #skills {
     display: flex;
     flex-wrap: wrap;
     width: 480px;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 
 .skill {
