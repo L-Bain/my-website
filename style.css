@@ -72,26 +72,12 @@ a {
 }
 
 .bubble {
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: black;
-    width: 500px;
-    max-width: 80vw;
     height: 100px;
-    border: black solid 4px;
     padding: 10px;
     font-size: 3em;
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s;
-    margin-bottom: 40px;
-    animation-name: hoverIn;
-    animation-delay: 0.2s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;  
 }
 
 .bubble:nth-of-type(2) {
@@ -273,15 +259,16 @@ a {
     margin-right: auto;
     background-color: white;
     color: black;
+    text-align: center;
     border: black solid 4px;
     width: 500px;
     max-width: 80vw;
     margin-bottom: 40px;
     animation-name: hoverIn;
     animation-delay: 0.2s;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
-    text-align: center;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
 }
 
 .info:nth-of-type(2) {
