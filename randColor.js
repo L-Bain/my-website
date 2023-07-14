@@ -18,7 +18,7 @@ function responsiveColor() {
         item.style.backgroundColor = "white";
     }
     items[idx++].style.backgroundColor = generateColor();
-    if (idx == 9) {
+    if (idx == 10) {
         idx = 0;
     }
 }
